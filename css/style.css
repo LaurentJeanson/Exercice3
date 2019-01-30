@@ -71,7 +71,7 @@ body {
       }
   
   .box {
-    background-color: #444;
+    background-color: #0BFFF2;
     color: #fff;
     border-radius: 5px;
     padding: 10px;
@@ -80,10 +80,12 @@ body {
   
   .header,
   .footer {
-    background-color: #999;
+    background-color: #FF6F25;
   }
-  
+  .content2{
+      background-color: black;
+  }
   .sidebar2 {
-    background-color: #ccc;
+    background-color: #0BFFF2;
     color: #444;
   }
