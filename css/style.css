@@ -13,7 +13,10 @@ body {
       .content {
           grid-area: content;
       }
-  
+      .content2 {
+           grid-area: content2;
+      } 
+
       .header {
           grid-area: header;
       }
@@ -35,6 +38,7 @@ body {
        "sidebar"
        "content"
        "sidebar2"
+       "content2"
        "footer"
     }
   
@@ -46,7 +50,9 @@ body {
       "header   header"
           "sidebar  content"
           "sidebar2 sidebar2"
-          "footer   footer";
+          "content2 content2"
+          "footer   footer"
+          ;
       }
       }
   
@@ -57,7 +63,9 @@ body {
               grid-template-areas:
         "header  header  header"
               "sidebar content sidebar2"
-              "footer  footer  footer";
+              "content2 content2 content2"
+              "footer  footer  footer"
+              ;
               max-width: 600px;
           }
       }
