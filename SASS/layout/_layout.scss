@@ -48,6 +48,7 @@ body {
       grid-gap: 1em;
       grid-template-areas:
        "header"
+       "content3"
        "sidebar"
        "content"
        "sidebar2"
@@ -60,7 +61,8 @@ body {
   
           grid-template-columns: 20% auto;
           grid-template-areas:
-      "header   header"
+          "header   header"
+          "content3 content3 "
           "sidebar  content"
           "sidebar2 sidebar2"
           "content2 content2"
@@ -73,10 +75,11 @@ body {
         grid-gap: 20px;
               grid-template-columns: 120px auto 120px;
               grid-template-areas:
-        "header  header  header"
-              "sidebar content sidebar2"
+              "header  header  header    "
+              "content3 content3 content3"
+              "sidebar content sidebar2  "
               "content2 content2 content2"
-              "footer  footer  footer";
+              "footer  footer  footer    ";
               max-width: 600px;
           }
       }
