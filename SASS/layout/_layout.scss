@@ -20,12 +20,14 @@ body {
       li{
           display: inline;
           padding: 5%;
+          color: lightgray;
       }
       li:hover{
         transition: .7s;
         background-color:#c16433;
         border-radius: 50%;
         border: 1px solid black;
+        color: white;
         
         }   
       .header {
@@ -77,7 +79,7 @@ body {
       }
   
   .box {
-    background-color: #0BFFF2;
+    background-color: #60b1ad;
     color: #fff;
     border-radius: 5px;
     padding: 10px;
@@ -86,10 +88,10 @@ body {
   
   .header,
   .footer {
-    background-color: #FF6F25;
+    background-color:#cc4500;
   }
   
   .sidebar2 {
-    background-color: #0BFFF2;
-    color: #444;
+    background-color: #60b1ad;
+    color: #fff;
   }
